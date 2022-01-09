@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: "TT Norms Pro";
 }
 
 .container {
@@ -19,6 +20,7 @@ ul {
 }
 
 .header {
+  position: relative;
   min-height: 1040px;
   background: linear-gradient(
     228.57deg,
@@ -29,18 +31,39 @@ ul {
   border-radius: 0px 0px 12px 12px;
 }
 
-.nav {
+.logo__container {
   display: flex;
-  justify-content: end;
-  padding: 55px 60px 0 0;
+  flex-direction: column;
 }
-.nav__list {
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 55px 60px 0 60px;
+}
+
+.logo_item {
+  display: flex;
+}
+
+.logo_title {
+  font-size: 38px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.contact_nav {
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+}
+.info__list {
   display: flex;
   list-style: none;
 }
-.nav__item {
-}
-.nav__link {
+
+.info__link {
   margin: 0 10px;
   text-decoration: none;
   font-size: 12px;
@@ -48,7 +71,7 @@ ul {
   color: #ffffff;
 }
 
-.nav__link_active {
+.info__link_active {
   padding: 5px 6px;
   background-color: #f0145a;
   border-radius: 8px;
@@ -68,22 +91,20 @@ ul {
   text-decoration: none;
 }
 
-.contact__item:last-of-type {
+.contact__item:nth-child(2) {
   font-weight: bold;
 }
 
-.info {
+.nav {
 }
-.info__item {
+
+.nav__list {
   list-style: none;
   display: flex;
-  justify-content: end;
   margin: 16px 60px 0 0;
 }
 
-.info__list {
-}
-.info__link {
+.nav__link {
   text-decoration: none;
   font-size: 18px;
   line-height: 21px;
@@ -91,16 +112,71 @@ ul {
   margin: 0 15px;
 }
 
-.info__link:hover {
+.nav__link:hover {
   border-bottom: 2px solid;
 }
 
-.servises__title {
+.services__main-title {
   background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0px 5px 4px rgb(0, 0, 0, 0.6));
   font-size: 42px;
   line-height: 50px;
-  margin: 73px 0 0 60px;
+  margin: 73px 0 68px 60px;
+}
+
+.services__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.services__item-box {
+  max-width: 413px;
+}
+
+.icon {
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  height: 92px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 14px;
+}
+
+.services__title {
+  margin: 20px 0 15px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #24a3ff;
+}
+
+.services__subtitle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.shadows_1 {
+  position: absolute;
+  bottom: -10px;
+  right: 25px;
+  width: 1210px;
+  height: 10px;
+  background-color: #cacadb;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.shadows_2 {
+  position: absolute;
+  bottom: -20px;
+  right: 45px;
+  width: 1170px;
+  height: 10px;
+  background-color: #e7e7f2;
+  border-radius: 0px 0px 12px 12px;
 }
