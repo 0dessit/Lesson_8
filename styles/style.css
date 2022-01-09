@@ -180,3 +180,143 @@ ul {
   background-color: #e7e7f2;
   border-radius: 0px 0px 12px 12px;
 }
+
+.cases_section {
+  height: 523px;
+  margin-top: 40px;
+}
+.container {
+}
+.cases {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f5f5fa;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 12px 12px 12px 12px;
+}
+.case__item-box {
+  max-width: 400px;
+  border: 1px solid #ffffff;
+}
+.case__item-hillel {
+}
+.case__item-wb {
+}
+.case__item-tr {
+}
+.case__item-3d {
+}
+.case__item-at {
+}
+.case__item-ck {
+}
+
+.cese_main_title {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #f0145a;
+}
+.case__title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #686887;
+}
+.case__link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  color: #b3b3ba;
+}
+
+.clients-section {
+  justify-content: center;
+}
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.clients__title {
+  text-align: center;
+  margin: 30px 0 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+}
+
+.clients__title {
+}
+.clients_card {
+}
+
+.card__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients_card-1 {
+  background: #1c4280;
+  width: 360px;
+  height: 120px;
+  padding: 25;
+}
+.clients_card-2 {
+  background: #143646;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-3 {
+  background: #f48b30;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-4 {
+  background: #9e4dc3;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-5 {
+  background: #fd9339;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-6 {
+  background: #e2e2e4;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-7 {
+  background: #c71c36;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-8 {
+  background: #dcf3f9;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-9 {
+  background: #eaeaea;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-10 {
+  background: #282240;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-11 {
+  background: #1c4280;
+  width: 360px;
+  height: 120px;
+}
+.clients_card-12 {
+  background: #000000;
+  width: 360px;
+  height: 120px;
+}
