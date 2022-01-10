@@ -5,7 +5,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "TT Norms Pro";
+  font-family: "TT Norms";
 }
 
 .container {
@@ -319,4 +319,90 @@ ul {
   background: #000000;
   width: 360px;
   height: 120px;
+}
+
+.footer {
+  height: 151px;
+  background: #f5f5fa;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0 0 60px;
+}
+
+.footer_info {
+  margin-bottom: 22px;
+}
+
+.footer-contact__list {
+  display: flex;
+  color: #b3b3ba;
+  margin-left: 20px;
+}
+
+.contact__item-adres {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.contact__link-adres {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #323264;
+}
+
+.contact__link {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #24a3ff;
+}
+
+.sub-contact__list {
+  display: flex;
+  align-items: center;
+  color: #b3b3ba;
+}
+
+.sub-contact__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #24a3ff;
+}
+
+.footer-sub-contact__item {
+  margin: 0 15px;
+}
+.footer-sub-contact__item-icon {
+  list-style: none;
+  margin: 0 15px;
+}
+.footer-contact__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #46466e;
+}
+
+.footer__icon {
+  text-decoration: none;
+  font-size: 38px;
+  color: #24a3ff;
+}
+
+.copyright-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #b3b3ba;
+  margin-right: 60px;
 }
