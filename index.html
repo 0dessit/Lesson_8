@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ukr">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -12,27 +12,32 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
+    <!-- !============================HEADER======================= -->
+
+    <header class="header">
+        <div class="container">
             <div class="header__menu">
                 <div class="logo_item">
                     <div class="logo__container">
-                        <img class="logo" src="/logo/Logo__title.svg" alt="tite">
-                        <img class="logo" src="/logo/Logo__sub-title.svg" alt="sub-title">
+                        <a href="#">
+                            <img class="logo-hlegals" src="/logo/Name.svg" alt="tite">
+                        </a>
+                        <a href="#">
+                            <img class="logo" src="/logo/Logo__sub-title.svg" alt="sub-title">
+                        </a>
                     </div>
                     <div class="slash">
                         <img class="logo" src="/logo/Slash.svg" alt="slash">
                     </div>
                     <div class="logo__info">
-                        <span class="logo_title">послуги</span>
+                        <a href="#" class="logo_title">послуги</a>
                     </div>
                     <div class="vector">
-                        <img class="logo" src="/logo/Symbol Slash.svg" alt="vectorP">
+                        <img class="logo" src="/logo/Symbol-Slash.svg" alt="vectorP">
                     </div>
                 </div>
                 <div class="contact_nav">
                     <div class="info header__info">
-
                         <ul class="info__list">
 
                             <li class="info__item">
@@ -47,10 +52,10 @@
                         </ul>
                         <ul class="contact__list">
                             <li class="contact__item">
-                                <a href="#" class="contact__link-header">Одеса, Адміральський пр., 3</a>
+                                <span class="contact__link-header">Одеса, Адміральський пр., 3</span>
                             </li>
                             <li class="contact__item">
-                                <a class="contact__link-header" href="tel:	+38 (050) 390 15 91">+38 (050) 390 15 91</a>
+                                <a class="contact__link-header" href="tel:+380503901591">+38 (050) 390 15 91</a>
                             </li>
                             <li class="contact__item">
                                 <a class="contact__link-header fab fa-facebook" href="#"></a>
@@ -63,7 +68,7 @@
                                 <a href="" class="nav__link">про нас</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__link">послуги</a>
+                                <a href="" class="nav__link nav__link-active">послуги</a>
                             </li>
                             <li class="nav__item">
                                 <a href="" class="nav__link">команда</a>
@@ -82,6 +87,7 @@
                 <h1 class="services__main-title">
                     Що ми вміємо робити краще за інших?
                 </h1>
+                <!-- !============================SERVICES======================= -->
                 <div class="services__container">
                     <div class="services__item-box">
                         <img class="icon" src="icon/01.svg" alt="">
@@ -151,16 +157,15 @@
                         </p>
                     </div>
                 </div>
-
             </section>
-            <div class="shadows_1"></div>
-            <div class="shadows_2"></div>
-        </header>
-    </div>
+        </div>
+    </header>
+
+    <!-- !============================CASES======================= -->
     <div class="container">
         <section class="cases_section">
+            <h3 class="cese_main_title">Успішні кейси</h3>
             <div class="cases">
-                <h3 class="cese_main_title">Успішні кейси</h3>
 
                 <div class="case__item-box">
                     <div class="case__item-hillel">
@@ -183,7 +188,7 @@
                     </div>
                 </div>
                 <div class="case__item-box">
-                    <div class="case__item-hillel">
+                    <div class="case__item-3D-LOOK">
                         <h3 class="case__title">Представництво інтересів великого зернотрейдера в податковому спорі
                         </h3>
                         <a class="case__link" href="#">3D LOOK</a>
@@ -203,11 +208,11 @@
                         <a class="case__link" href="#">Clikky</a>
                     </div>
                 </div>
+            </div>
         </section>
-
     </div>
+    <!-- !============================CLIENTS======================= -->
     <section class="clients-section">
-
         <h3 class="clients__title">
             Вже довіряють нам
         </h3>
@@ -249,8 +254,8 @@
                 <img src="icon/ultimate.svg" alt="ultimate-logo">
             </div>
         </div>
-        </div>
     </section>
+    <!-- !============================FOORER======================= -->
     <footer class="footer">
         <div class="container">
             <div class="footer-box">
@@ -258,7 +263,7 @@
                     <div class="footer_info">
                         <ul class="footer-contact__list">
                             <li class="contact__item-adres">
-                                <a class="contact__link-adres" href="#">Одеса, Адміральський пр., 3</a>
+                                <span class="contact__link-adres">Одеса, Адміральський пр., 3</span>
                             </li>
                             <li class="contact__item">
                                 <a href="" class="contact__link">Подивитися на мапі</a>
@@ -271,7 +276,7 @@
                                 <a class="footer__icon fab fa-facebook" href="#"></a>
                             </li>
                             <li class="footer-sub-contact__item">
-                                <a class="footer-contact__link" href="tel:	+38 (050) 390 15 91">+38 (050) 390 15
+                                <a class="footer-contact__link" href="tel:+380503901591">+38 (050) 390 15
                                     91</a>
                             </li>
                             <li class="footer-sub-contact__item">
