@@ -195,47 +195,81 @@ ul {
 }
 
 /* !=============CASES========== */
-
-.cases_section {
-  margin: 60px 0 30px;
+.cases {
+  padding: 40px 0 30px;
+  background-color: #fff;
 }
 
-.cases {
+.cases_box {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  background: #f5f5fa;
-  justify-content: space-around;
+  gap: 2px;
+  border-radius: 12px;
+  overflow: hidden;
 }
-.case__item-box {
-  display: flex;
-  flex-basis: 340px;
+.cases_item {
+  flex-grow: 1;
 }
 
-.cese_main_title {
+.case__hillel,
+.case__wannabiz,
+.case__tapgerine {
+  flex-basis: calc(100% / 3 - 2px);
+}
+.case__3d-look {
+  flex-basis: 318px;
+}
+
+.case__adtelligent {
+  flex-basis: 451px;
+}
+
+.case__clikky {
+  flex-basis: 545px;
+}
+
+.case__title {
+  margin: 0;
   font-size: 14px;
   line-height: 17px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #f0145a;
-  margin: 0;
+  border-bottom: 2px solid white;
 }
-.case__title {
+
+.case__cards-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100%;
+  padding: 20px;
+  background-color: #f5f5fa;
+  text-decoration: none;
+}
+
+.case__hillel > .case__cards-link {
+  min-height: auto;
+}
+
+.case__hillel > .case__cards-link {
+  flex-grow: 1;
+}
+
+.case__info {
+  margin: 0;
   font-size: 24px;
   line-height: 28px;
+  font-weight: 500;
   color: #686887;
 }
-.case__link {
-  text-decoration: none;
+.case__company {
+  margin-top: 20px;
   font-size: 18px;
   line-height: 26px;
   color: #b3b3ba;
 }
-
-.case__item-hillel {
-}
-
-.case__item-3D-LOOK {
-}
-
 /* !=============CLIENTS========== */
 
 .clients-section {
@@ -250,6 +284,7 @@ ul {
   text-align: center;
   margin: 0 0 30px;
   font-size: 14px;
+  line-height: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #323264;
@@ -310,7 +345,7 @@ ul {
 .footer-box {
   display: flex;
   justify-content: space-between;
-  padding: 32px 0 0 60px;
+  padding: 32px 0 0;
 }
 
 .footer_info {
@@ -320,7 +355,6 @@ ul {
 .footer-contact__list {
   display: flex;
   color: #b3b3ba;
-  margin-left: 20px;
 }
 
 .contact__item-adres {
@@ -342,6 +376,7 @@ ul {
   line-height: 14px;
   text-transform: uppercase;
   color: #24a3ff;
+  text-decoration: none;
 }
 
 .sub-contact__list {
@@ -361,9 +396,10 @@ ul {
 .footer-sub-contact__item {
   margin: 0 15px;
 }
+
 .footer-sub-contact__item-icon {
   list-style: none;
-  margin: 0 15px;
+  margin-right: 15px;
 }
 .footer-contact__link {
   text-decoration: none;
