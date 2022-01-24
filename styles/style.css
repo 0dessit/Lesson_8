@@ -370,14 +370,13 @@ ul {
 /* !=============FOOTER========== */
 
 .footer {
-  height: 151px;
   background: #f5f5fa;
+  padding: 32px 0 40px 0;
 }
 
 .footer-box {
   display: flex;
   justify-content: space-between;
-  padding: 32px 0 0;
 }
 
 .footer_info {
