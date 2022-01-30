@@ -6,40 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services </title>
-    <link rel="stylesheet" href="fonts/stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- ?==============CUSTOM__STYLES====================== -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <!-- !============================HEADER======================= -->
-
     <header class="header">
         <div class="container">
             <div class="header__menu">
                 <div class="logo_item">
                     <div class="logo__container">
                         <a href="#">
-                            <img class="logo-hlegals" src="logo/Name.svg" alt="tite">
+                            <img class="logo-hlegals" src="images/logo/Name.svg" alt="tite">
                         </a>
                         <a href="#">
-                            <img class="logo" src="logo/Logo__sub-title.svg" alt="sub-title">
+                            <img class="logo" src="images/logo/Logo__sub-title.svg" alt="sub-title">
                         </a>
                     </div>
                     <div class="slash">
-                        <img class="logo" src="logo/Slash.svg" alt="slash">
+                        <img class="logo" src="images/logo/Slash.svg" alt="slash">
                     </div>
                     <div class="logo__info">
                         <a href="#" class="logo_title">послуги</a>
                     </div>
                     <div class="vector">
-                        <img class="logo" src="/logo/Symbol-Slash.svg" alt="vectorP">
+                        <img class="logo" src="images/logo/Symbol-Slash.svg" alt="vectorP">
                     </div>
+                    <label for="nav-target" class="nav_open open_btn">
+                        <img class="nav_open" src="images/mobile-icon/Hamburger.svg" alt="">
+                    </label>
                 </div>
                 <div class="contact_nav">
                     <div class="info header__info">
                         <ul class="info__list">
-
                             <li class="info__item">
                                 <button class="info__link info__link_active">УК</button>
                             </li>
@@ -65,7 +66,11 @@
                             </li>
                         </ul>
                     </div>
+                    <input id="nav-target" type="checkbox">
                     <nav class="nav">
+                        <label for="nav-target" class="nav_close">
+                            <img class="nav_close-btn" src="images/mobile-icon/Close.svg" alt="">
+                        </label>
                         <ul class="nav__list">
                             <li class="nav__item">
                                 <a href="" class="nav__link">про нас</a>
@@ -93,10 +98,12 @@
                 <!-- !============================SERVICES======================= -->
                 <div class="services__container">
                     <div class="services__item-box">
-                        <img class="icon" src="icon/01.svg" alt="">
-                        <h3 class="services__title">
-                            IT та електронна комерція
-                        </h3>
+                        <div class="card__header">
+                            <img class="icon" src="images/icon/01.svg" alt="">
+                            <h3 class="services__title">
+                                IT та електронна комерція
+                            </h3>
+                        </div>
                         <p class="services__subtitle">
                             Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери —
                             юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб
@@ -104,11 +111,13 @@
                         </p>
                     </div>
                     <div class="services__item-box">
-                        <img class="icon" src="icon/02.svg" alt="">
-                        <h3 class="services__title">
-                            Комплексний щоденний
-                            юридичний супровід
-                        </h3>
+                        <div class="card__header">
+                            <img class="icon" src="images/icon/02.svg" alt="">
+                            <h3 class="services__title">
+                                Комплексний щоденний
+                                юридичний супровід
+                            </h3>
+                        </div>
                         <p class="services__subtitle">
                             До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми
                             добре
@@ -117,20 +126,24 @@
                         </p>
                     </div>
                     <div class="services__item-box">
-                        <img class="icon" src="icon/03.svg" alt="">
-                        <h3 class="services__title">
-                            Структуризація корпоративних відносин
-                        </h3>
+                        <div class="card__header">
+                            <img class="icon" src="images/icon/03.svg" alt="">
+                            <h3 class="services__title">
+                                Структуризація корпоративних відносин
+                            </h3>
+                        </div>
                         <p class="services__subtitle">
                             Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які
                             впишуться в повсякденне життя вашої компанії.
                         </p>
                     </div>
                     <div class="services__item-box">
-                        <img class="icon" src="icon/04.svg" alt="">
-                        <h3 class="services__title">
-                            Побудовa договірних відносин
-                        </h3>
+                        <div class="card__header">
+                            <img class="icon" src="images/icon/04.svg" alt="">
+                            <h3 class="services__title">
+                                Побудовa договірних відносин
+                            </h3>
+                        </div>
                         <p class="services__subtitle">
                             Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в
                             компанії може впіймати його біля кавоварки і просто поговорити про поточні справи
@@ -139,10 +152,12 @@
                         </p>
                     </div>
                     <div class="services__item-box">
-                        <img class="icon" src="icon/05.svg" alt="">
-                        <h3 class="services__title">
-                            Захист бізнесу, інтелектуальної власності
-                        </h3>
+                        <div class="card__header">
+                            <img class="icon" src="images/icon/05.svg" alt="">
+                            <h3 class="services__title">
+                                Захист бізнесу, інтелектуальної власності
+                            </h3>
+                        </div>
                         <p class="services__subtitle">
                             А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не
                             зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners
@@ -150,10 +165,12 @@
                         </p>
                     </div>
                     <div class="services__item-box">
-                        <img class="icon" src="icon/06.svg" alt="">
-                        <h3 class="services__title">
-                            Судове представництво
-                        </h3>
+                        <div class="card__header">
+                            <img class="icon" src="images/icon/06.svg" alt="">
+                            <h3 class="services__title">
+                                Судове представництво
+                            </h3>
+                        </div>
                         <p class="services__subtitle">
                             Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або
                             транснаціональна компанія? Маєте власний юридичний відділ, чи ні?
@@ -229,40 +246,40 @@
         </h2>
         <div class="clients">
             <div class="clients_card-1 card__flex">
-                <img src="icon/Hillel.svg" alt="Hillel-logo">
+                <img src="images/icon/Hillel.svg" alt="Hillel-logo">
             </div>
             <div class="clients_card-2 card__flex">
-                <img src="icon/WannaBiz.svg" alt="WannaBiz-logo">
+                <img src="images/icon/WannaBiz.svg" alt="WannaBiz-logo">
             </div>
             <div class="clients_card-3 card__flex">
-                <img src="icon/tapgerine.svg" alt="tapgerine-logo">
+                <img src="images/icon/tapgerine.svg" alt="tapgerine-logo">
             </div>
             <div class="clients_card-4 card__flex">
-                <img src="icon/3DLOOK.svg" alt="3DLOOK-logo">
+                <img src="images/icon/3DLOOK.svg" alt="3DLOOK-logo">
             </div>
             <div class="clients_card-5 card__flex">
-                <img src="icon/orangear.svg" alt="orangear-logo">
+                <img src="images/icon/orangear.svg" alt="orangear-logo">
             </div>
             <div class="clients_card-6 card__flex">
-                <img src="icon/adtelligent.svg" alt="adtelligent-logo">
+                <img src="images/icon/adtelligent.svg" alt="adtelligent-logo">
             </div>
             <div class="clients_card-7 card__flex">
-                <img src="icon/clickky.svg" alt="clickky-logo">
+                <img src="images/icon/clickky.svg" alt="clickky-logo">
             </div>
             <div class="clients_card-8 card__flex">
-                <img src="icon/ecolease.svg" alt="ecolease-logo">
+                <img src="images/icon/ecolease.svg" alt="ecolease-logo">
             </div>
             <div class="clients_card-9 card__flex">
-                <img src="icon/Infratek.svg" alt="Infratek-logo">
+                <img src="images/icon/Infratek.svg" alt="Infratek-logo">
             </div>
             <div class="clients_card-10 card__flex">
-                <img src="icon/city.svg" alt="city-logo">
+                <img src="images/icon/city.svg" alt="city-logo">
             </div>
             <div class="clients_card-11 card__flex">
-                <img src="icon/art.svg" alt="art-logo">
+                <img src="images/icon/art.svg" alt="art-logo">
             </div>
             <div class="clients_card-12 card__flex">
-                <img src="icon/ultimate.svg" alt="ultimate-logo">
+                <img src="images/icon/ultimate.svg" alt="ultimate-logo">
             </div>
         </div>
     </section>
@@ -298,7 +315,7 @@
                         </ul>
                     </div>
                 </div>
-                <a class="copyright-link" href="#">© 2021 ТОВ Юридична компанія «HLEGALS»</a>
+                <a class="copyright-link" href="#">© 2021 ТОВ Юридична компані <span>«HLEGALS»</span></a>
             </div>
         </div>
     </footer>
