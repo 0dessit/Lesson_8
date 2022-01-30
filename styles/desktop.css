@@ -238,14 +238,15 @@
 
 .services__title {
   margin: 20px 0 15px;
-  font-size: 24px;
+  font-size: clamp(18px, calc(24 / 1140 * 100vw), 24px);
+
   line-height: 28px;
   color: #24a3ff;
 }
 
 .services__subtitle {
   margin: 0;
-  font-size: 18px;
+  font-size: clamp(16px, calc(18 / 1140 * 100vw), 18px);
   line-height: 26px;
   color: #ffffff;
 }
