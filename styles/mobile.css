@@ -84,14 +84,32 @@
     display: block;
   }
   /* !==================SERVICES================ */
-  .services__container {
-  }
+
   .card__header {
     flex-direction: row;
     align-items: center;
   }
 
   /* !==================CASES================ */
+  .cases_box {
+    flex-direction: column;
+  }
+
+  .case__hillel,
+  .case__wannabiz,
+  .case__tapgerine,
+  .case__3d-look,
+  .case__adtelligent,
+  .case__clikky {
+    flex-basis: 100px;
+  }
+
+  .case__info {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  /* !==================CALIENTS================ */
   .card__flex {
     flex-direction: row;
     display: flex;
