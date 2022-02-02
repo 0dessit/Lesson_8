@@ -90,7 +90,12 @@
     flex-direction: row;
     align-items: center;
   }
-
+  .icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 18px;
+    padding: 10px;
+  }
   /* !==================CASES================ */
   .cases_box {
     flex-direction: column;
