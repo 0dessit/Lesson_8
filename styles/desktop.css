@@ -83,6 +83,7 @@
   line-height: 45px;
   color: #ffffff;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .logo_title:hover {
@@ -137,6 +138,14 @@
   line-height: 19px;
   color: #b3b3ba;
   text-decoration: none;
+  transition: color 0.5s;
+}
+
+.contact__adress:hover {
+  color: #fff;
+}
+.contact__social-link:hover {
+  color: #24a3ff;
 }
 
 .contact__tel::after,
@@ -154,6 +163,10 @@
 
 .contact__tel {
   font-weight: bold;
+}
+
+.contact__tel:hover {
+  color: #fff;
 }
 
 #nav-target {
@@ -239,7 +252,6 @@
 .services__title {
   margin: 20px 0 15px;
   font-size: clamp(18px, calc(24 / 1140 * 100vw), 24px);
-
   line-height: 28px;
   color: #24a3ff;
 }
@@ -316,7 +328,7 @@
 
 .case__info {
   margin: 0;
-  font-size: 24px;
+  font-size: clamp(18px, calc(24 / 1140 * 100vw), 24px);
   line-height: 28px;
   font-weight: 500;
   color: #686887;
@@ -495,6 +507,11 @@
   text-decoration: none;
   font-size: 38px;
   color: #24a3ff;
+  transition: color 0.5s;
+}
+
+.footer__icon:hover {
+  color: #b3b3ba;
 }
 
 .copyright-link {
