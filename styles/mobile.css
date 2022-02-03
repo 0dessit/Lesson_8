@@ -128,31 +128,8 @@
   }
 
   /* !==================CALIENTS================ */
-  .card__flex {
-    min-width: 50%;
-    min-height: 120px;
-    order: 1;
-  }
-
-  .clients_card-7 {
-    order: 2;
-  }
-
-  .clients_card-12,
-  .clients_card-9,
-  .clients_card-5 {
-    order: 3;
-  }
-  .clients_card-11 {
-    order: 4;
-  }
-
-  .clients_card-10 {
-    order: 9;
-  }
-
-  .clients_card-6 {
-    order: 10;
+  .clients-item {
+    flex-basis: 50%;
   }
 
   /* !===============FOOTER=================== */
