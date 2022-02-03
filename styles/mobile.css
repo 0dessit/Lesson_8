@@ -10,6 +10,21 @@
     padding: 10px 0;
   }
 
+  .logo_title {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .logo-subtitle {
+    max-height: 5px;
+  }
+
+  .logo-slash,
+  .logo-vector,
+  .logo-hlegals {
+    max-height: 28px;
+  }
+
   .logo_item .nav_open {
     display: block;
   }
